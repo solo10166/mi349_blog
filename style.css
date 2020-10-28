@@ -32,10 +32,23 @@ p {
  
 }
 
+.about-cameron {
+    display: flex;
+}
+
+#cameron {
+    margin-right: 30px;
+    flex: 2;
+}
+.about-text {
+    flex: 3;
+}
+
 .blog-post {
     margin-top: 35px;
     border-bottom: 1px dotted #cccccc;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 #newsletter {
@@ -44,7 +57,7 @@ p {
 
 
 .links {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 img {
@@ -52,9 +65,7 @@ img {
 }
 
 .footer {
-    margin-top: 10px;
-    padding: 10px;
-    
+    float: right;
 }
 
 .button {
@@ -81,3 +92,37 @@ label {
     border: 3px solid #E8004E;
     margin: 50px;
 }
+
+.links {
+  background-color: #cccccc;
+  border: 3px solid #E8004E;
+  height: 10px;
+  display: flex;  
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.link-header:nth-of-type(1){
+  flex: 3;
+}
+.link-header:nth-of-type(2){
+  flex: 3;
+}
+.link-header:nth-of-type(3){
+  flex: .5;
+}
+
+.image-container {
+  float: left;
+  margin-right: 40px;
+}
+    
+.photo-article{
+  display: flex;
+  justify-content: center;
+}
+
