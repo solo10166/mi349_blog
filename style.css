@@ -128,7 +128,7 @@ label {
 
 /* Media Queries */
 
-@media (max-width: 402px) {
+@media (max-width: 400px) {
 
   img {
     max-width: 200px;
@@ -138,4 +138,25 @@ label {
     height: 20px;
   }
 
+  .about-cameron {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 20px;
+  }
+
+  #cameron {
+    grid-row: 1;
+    size: 50%;
+
+  }
+  #intro-about {
+    grid-row: 2;
+  }
+  #teams {
+    grid-row: 3;
+  }
+  #final-about {
+    grid-row: 4;
+  }
 }
