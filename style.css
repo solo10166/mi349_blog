@@ -131,7 +131,7 @@ label {
 @media (max-width: 400px) {
 
   img {
-    width: 200px;
+    max-width: 200px;
   }
 
 }
