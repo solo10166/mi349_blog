@@ -174,7 +174,7 @@ label {
 
   .photo-article {
     display: grid;
-    grid-row: auto;
+    grid-row: 200px;
   }
   .image-container {
     grid-row: 1;
