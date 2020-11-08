@@ -134,4 +134,8 @@ label {
     max-width: 200px;
   }
 
+  .links {
+    height: 20px;
+  }
+
 }
