@@ -128,7 +128,7 @@ label {
 
 /* Media Queries */
 
-@media (max-width: 400px) {
+@media (max-width: 399px) {
 
   img {
     max-width: 200px;
@@ -147,8 +147,7 @@ label {
 
   #cameron {
     grid-row: 1;
-    size: 50%;
-
+    width: 200px;
   }
   #intro-about {
     grid-row: 2;
