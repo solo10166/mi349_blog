@@ -134,7 +134,7 @@ label {
     max-width: 200px;
   }
 
-  .links {
+  .links, .sticky {
     height: 20px;
   }
 
