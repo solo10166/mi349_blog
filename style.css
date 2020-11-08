@@ -128,7 +128,7 @@ label {
 
 /* Media Queries */
 
-@media (max-width: 400px) {
+@media (max-width: 402px) {
 
   img {
     max-width: 200px;
