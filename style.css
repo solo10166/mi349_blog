@@ -126,3 +126,12 @@ label {
   justify-content: center;
 }
 
+/* Media Queries */
+
+@media (max-width: 400px) {
+
+  img {
+    width: 200px;
+  }
+
+}
