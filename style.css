@@ -132,6 +132,7 @@ label {
 
   img {
     max-width: 200px;
+    align-content: center;
   }
 
   .links, .sticky {
